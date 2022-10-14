@@ -1,2 +1,3 @@
 today is my 4 day on traning 
 i'm enjoying learing my git 
+ git commit -m "commiting hello world class"

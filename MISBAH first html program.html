@@ -19,6 +19,10 @@
                     margin-right:auto;
                     width:1350px;
                 }
+   	.fieldset{
+   		width: 180px;
+   		background: rgb(120, 140, 550);
+   	}
 
 </style>
 <body>
@@ -29,21 +33,22 @@
 
 	<center>
 		<h3>LOGIN FORM</h3>
-	<form>
+	<form class="fieldset" autocomplete="off" >
 		<label>Name:</label><br>
-		<input type="text" name="name"><br><br>	
+		<input type="text" name="name" required ><br><br>	
 		<label>Email:</label><br>	
-		<input type="text" name="Email"><br><br>
+		<input type="text" name="Email" required><br><br>
 		<label>Password:</label><br>
-		<input type="password"name="password"><br><br>
+		<input type="password"name="password" required><br><br>
 		<div>
 		<button class="b-2"><b>Login</b></button><br><br>		
 		<button class="b-1"><b>forgot password</b></button>
 		</div>
 	</form>
-</center>
+</center>		
 
 </div>
 </div>
+ 
 </body>
 </html>
